@@ -1,0 +1,38 @@
+@import "bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "SUIT-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: "SUIT-Regular";
+  width: 55%;
+  margin: 0 auto;
+
+  .title {
+    margin: 30px 0 45px;
+    text-align: center;
+    background: linear-gradient(to top, #8a46f127 40%, transparent 15%);
+    display: inline-block;
+  }
+
+  .p-0 {
+    padding: 0;
+  }
+}
+
+@media (max-width: 599px) {
+  .App {
+    width: 85%;
+  }
+}

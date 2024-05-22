@@ -1,0 +1,25 @@
+.ContactItem {
+  padding: 0 15px;
+
+  .border-t {
+    border-top: 1px solid #efefef;
+    padding: 15px 0;
+
+    .img {
+      display: flex;
+      justify-content: center;
+
+      img {
+        border-radius: 25px;
+      }
+    }
+
+    .p-0 {
+      padding: 0;
+    }
+
+    .info {
+      font-size: 14px;
+    }
+  }
+}

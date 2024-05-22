@@ -1,0 +1,39 @@
+.SearchBox {
+  margin-bottom: 30px;
+
+  .form-control {
+    font-size: 15px;
+    background-color: #8a46f115;
+    border-color: #efefef;
+
+    &:focus {
+      border: 1px solid #8b46f1;
+      box-shadow: none;
+    }
+  }
+
+  .p-0 {
+    padding: 0;
+  }
+
+  .form-btn {
+    background-color: #8b46f1;
+    border: none;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    transition: background-color 0.2s;
+    white-space: nowrap;
+    margin-top: 2px;
+
+    &:hover {
+      background-color: #743ec5;
+      color: white;
+    }
+
+    &:focus {
+      background-color: #743ec5;
+      color: white;
+    }
+  }
+}

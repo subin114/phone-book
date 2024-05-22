@@ -1,0 +1,46 @@
+.ContactForm {
+  padding-right: 20px;
+
+  .form-group {
+    .form-label {
+      font-size: 16px;
+      color: #5113ad;
+      font-weight: 600;
+    }
+
+    .form-control {
+      font-size: 15px;
+      border-color: #efefef;
+
+      &:focus {
+        border: 1px solid #8b46f1;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .form-btn {
+    background-color: #8b46f1;
+    border: none;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #743ec5;
+      color: white;
+    }
+
+    &:focus {
+      background-color: #743ec5;
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .ContactForm {
+    padding-right: 0;
+  }
+}
